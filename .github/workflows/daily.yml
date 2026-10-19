@@ -36,6 +36,5 @@ jobs:
             echo "No change."
             exit 0
           fi
-          day=$(ls data/daily | sort | tail -1 | sed 's/\.json$//')
-          git commit -m "data: market snapshot ${day}"
+          git commit -m "data: market snapshot $(date -u +%Y-%m-%d)"
           git push

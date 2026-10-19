@@ -95,8 +95,14 @@ for (const file of files) {
 }
 console.log(`Mirrored ${files.length} CSV files.`);
 
-// 2. The daily market file.
-const data = JSON.parse(await get(`${SITE}/data/market/daily.json`, "application/json"));
+// 2. The daily market file. Without it the CSV mirror still lands, and the run says so.
+let data;
+try {
+  data = JSON.parse(await get(`${SITE}/data/market/daily.json`, "application/json"));
+} catch (err) {
+  console.log(`::warning::The daily market file is not available, only the CSV files were mirrored. ${err.message}`);
+  process.exit(0);
+}
 if (data.schema_version !== SCHEMA) throw new Error(`Expected schema_version ${SCHEMA}, got ${data.schema_version}. Update this script.`);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(data.date ?? "")) throw new Error(`Bad date: ${data.date}`);
 await mkdir("data/daily", { recursive: true });
