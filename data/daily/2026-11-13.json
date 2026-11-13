@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "dataset": "ClippingAlpha clipping market, daily",
+  "source": "https://clippingalpha.com",
+  "documentation": "https://clippingalpha.com/data",
+  "repository": "https://github.com/ClippingAlpha/clipping-market-data",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Data: ClippingAlpha (clippingalpha.com)",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T14:42:02.057Z",
+  "checked_at": "2026-11-13T14:41:12.522Z",
+  "totals": {
+    "live_campaigns": 902,
+    "boards_live": 6,
+    "budget_left_usd": 2189097,
+    "new_campaigns_24h": 43,
+    "new_budget_usd_24h": 130153,
+    "new_budget_campaigns_24h": 43,
+    "ended_campaigns_24h": 36
+  },
+  "cpm_index": {
+    "method": "clipcpm-v1",
+    "method_url": "https://clippingalpha.com/index/cpm",
+    "live_read": 902,
+    "campaigns": 881,
+    "excluded": {
+      "flat": 10,
+      "auction": 9,
+      "contest": 0,
+      "other_pay": 0,
+      "no_rate": 1,
+      "too_good": 1
+    },
+    "cells": [
+      {
+        "campaign_type": "all",
+        "platform": "all",
+        "campaigns": 881,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "all",
+        "platform": "tiktok",
+        "campaigns": 808,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "all",
+        "platform": "instagram",
+        "campaigns": 686,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "all",
+        "platform": "youtube",
+        "campaigns": 483,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1.1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "all",
+        "platform": "x",
+        "campaigns": 138,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "all",
+        "platform": "facebook",
+        "campaigns": 12,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1.625
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "all",
+        "campaigns": 593,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1.1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "tiktok",
+        "campaigns": 538,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "instagram",
+        "campaigns": 507,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "youtube",
+        "campaigns": 371,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1.1,
+        "rate_p75_usd": 2
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "x",
+        "campaigns": 98,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1.5
+      },
+      {
+        "campaign_type": "clipping",
+        "platform": "facebook",
+        "campaigns": 11,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1.25
+      },
+      {
+        "campaign_type": "ugc",
+        "platform": "all",
+        "campaigns": 140,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 2,
+        "rate_p75_usd": 3
+      },
+      {
+        "campaign_type": "ugc",
+        "platform": "tiktok",
+        "campaigns": 133,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 2,
+        "rate_p75_usd": 3
+      },
+      {
+        "campaign_type": "ugc",
+        "platform": "instagram",
+        "campaigns": 111,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 2,
+        "rate_p75_usd": 3
+      },
+      {
+        "campaign_type": "ugc",
+        "platform": "youtube",
+        "campaigns": 78,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 2,
+        "rate_p75_usd": 3.375
+      },
+      {
+        "campaign_type": "ugc",
+        "platform": "x",
+        "campaigns": 27,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 2,
+        "rate_p75_usd": 3
+      },
+      {
+        "campaign_type": "logo",
+        "platform": "all",
+        "campaigns": 29,
+        "rate_p25_usd": 0.18,
+        "rate_median_usd": 0.3,
+        "rate_p75_usd": 0.8
+      },
+      {
+        "campaign_type": "logo",
+        "platform": "tiktok",
+        "campaigns": 20,
+        "rate_p25_usd": 0.15,
+        "rate_median_usd": 0.225,
+        "rate_p75_usd": 0.525
+      },
+      {
+        "campaign_type": "logo",
+        "platform": "instagram",
+        "campaigns": 28,
+        "rate_p25_usd": 0.1725,
+        "rate_median_usd": 0.3,
+        "rate_p75_usd": 0.725
+      },
+      {
+        "campaign_type": "logo",
+        "platform": "youtube",
+        "campaigns": 16,
+        "rate_p25_usd": 0.15,
+        "rate_median_usd": 0.2,
+        "rate_p75_usd": 0.3125
+      },
+      {
+        "campaign_type": "logo",
+        "platform": "x",
+        "campaigns": 5,
+        "rate_p25_usd": 0.2,
+        "rate_median_usd": 0.25,
+        "rate_p75_usd": 0.3
+      },
+      {
+        "campaign_type": "music",
+        "platform": "all",
+        "campaigns": 119,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1.375
+      },
+      {
+        "campaign_type": "music",
+        "platform": "tiktok",
+        "campaigns": 117,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1.25
+      },
+      {
+        "campaign_type": "music",
+        "platform": "instagram",
+        "campaigns": 40,
+        "rate_p25_usd": 0.2375,
+        "rate_median_usd": 1,
+        "rate_p75_usd": 1
+      },
+      {
+        "campaign_type": "music",
+        "platform": "youtube",
+        "campaigns": 18,
+        "rate_p25_usd": 0.12,
+        "rate_median_usd": 0.875,
+        "rate_p75_usd": 1
+      },
+      {
+        "campaign_type": "music",
+        "platform": "x",
+        "campaigns": 8,
+        "rate_p25_usd": 1,
+        "rate_median_usd": 1.25,
+        "rate_p75_usd": 1.5
+      }
+    ]
+  },
+  "campaign_types": [
+    {
+      "campaign_type": "clipping",
+      "live_campaigns": 605,
+      "new_campaigns_24h": 29,
+      "budget_left_usd": 1670470
+    },
+    {
+      "campaign_type": "ugc",
+      "live_campaigns": 147,
+      "new_campaigns_24h": 4,
+      "budget_left_usd": 268131
+    },
+    {
+      "campaign_type": "logo",
+      "live_campaigns": 30,
+      "new_campaigns_24h": 3,
+      "budget_left_usd": 109322
+    },
+    {
+      "campaign_type": "music",
+      "live_campaigns": 120,
+      "new_campaigns_24h": 7,
+      "budget_left_usd": 141175
+    }
+  ],
+  "boards": [
+    {
+      "board": "Content Rewards",
+      "board_slug": "content-rewards",
+      "live_campaigns": 772,
+      "live_by_type": {
+        "clipping": 558,
+        "ugc": 144,
+        "logo": 11,
+        "music": 59
+      },
+      "rate_median_usd": 1.2,
+      "budget_left_usd": 1858784
+    },
+    {
+      "board": "Clipster",
+      "board_slug": "clipster",
+      "live_campaigns": 103,
+      "live_by_type": {
+        "clipping": 29,
+        "ugc": 2,
+        "logo": 12,
+        "music": 60
+      },
+      "rate_median_usd": 1,
+      "budget_left_usd": 247789
+    },
+    {
+      "board": "Clipstake",
+      "board_slug": "clipstake",
+      "live_campaigns": 12,
+      "live_by_type": {
+        "clipping": 4,
+        "ugc": 0,
+        "logo": 8,
+        "music": 0
+      },
+      "rate_median_usd": 0.85,
+      "budget_left_usd": 44065
+    },
+    {
+      "board": "Promote.fun",
+      "board_slug": "promote-fun",
+      "live_campaigns": 10,
+      "live_by_type": {
+        "clipping": 9,
+        "ugc": 0,
+        "logo": 0,
+        "music": 1
+      },
+      "rate_median_usd": 2,
+      "budget_left_usd": 19099
+    },
+    {
+      "board": "Vyro",
+      "board_slug": "vyro",
+      "live_campaigns": 5,
+      "live_by_type": {
+        "clipping": 4,
+        "ugc": 1,
+        "logo": 0,
+        "music": 0
+      },
+      "rate_median_usd": 2,
+      "budget_left_usd": 29360
+    },
+    {
+      "board": "Discord",
+      "board_slug": "discord",
+      "live_campaigns": 1,
+      "live_by_type": {
+        "clipping": 1,
+        "ugc": 0,
+        "logo": 0,
+        "music": 0
+      },
+      "rate_median_usd": 1.25,
+      "budget_left_usd": null
+    },
+    {
+      "board": "Evangelist",
+      "board_slug": "evangelist",
+      "live_campaigns": 0,
+      "live_by_type": {
+        "clipping": 0,
+        "ugc": 0,
+        "logo": 0,
+        "music": 0
+      },
+      "rate_median_usd": null,
+      "budget_left_usd": null
+    }
+  ],
+  "platforms": [
+    {
+      "platform": "tiktok",
+      "name": "TikTok",
+      "live_campaigns": 826,
+      "rate_median_usd": 1,
+      "budget_left_usd": 1979830,
+      "budget_lasted_median_days": 11
+    },
+    {
+      "platform": "instagram",
+      "name": "Instagram",
+      "live_campaigns": 703,
+      "rate_median_usd": 1,
+      "budget_left_usd": 1822761,
+      "budget_lasted_median_days": 14
+    },
+    {
+      "platform": "youtube",
+      "name": "YouTube",
+      "live_campaigns": 498,
+      "rate_median_usd": 1.05,
+      "budget_left_usd": 1359021,
+      "budget_lasted_median_days": 18
+    },
+    {
+      "platform": "x",
+      "name": "X",
+      "live_campaigns": 144,
+      "rate_median_usd": 1,
+      "budget_left_usd": 392477,
+      "budget_lasted_median_days": 18
+    }
+  ],
+  "niches": [
+    {
+      "niche": "podcast",
+      "name": "Podcasts",
+      "live_campaigns": 45,
+      "rate_median_usd": 1.5,
+      "budget_left_usd": 132572,
+      "budget_lasted_median_days": 12
+    },
+    {
+      "niche": "streams",
+      "name": "Streams",
+      "live_campaigns": 33,
+      "rate_median_usd": 1,
+      "budget_left_usd": 146288,
+      "budget_lasted_median_days": 31
+    },
+    {
+      "niche": "gaming",
+      "name": "Gaming",
+      "live_campaigns": 64,
+      "rate_median_usd": 1,
+      "budget_left_usd": 191975,
+      "budget_lasted_median_days": 15
+    },
+    {
+      "niche": "sports",
+      "name": "Sports",
+      "live_campaigns": 36,
+      "rate_median_usd": 1,
+      "budget_left_usd": 82876,
+      "budget_lasted_median_days": 11
+    },
+    {
+      "niche": "film-and-tv",
+      "name": "Film and TV",
+      "live_campaigns": 34,
+      "rate_median_usd": 1,
+      "budget_left_usd": 64294,
+      "budget_lasted_median_days": 7
+    },
+    {
+      "niche": "music",
+      "name": "Music",
+      "live_campaigns": 120,
+      "rate_median_usd": 1,
+      "budget_left_usd": 141231,
+      "budget_lasted_median_days": 4
+    },
+    {
+      "niche": "brand-ads",
+      "name": "Brand ads",
+      "live_campaigns": 4,
+      "rate_median_usd": 3.63,
+      "budget_left_usd": 7489,
+      "budget_lasted_median_days": 50
+    },
+    {
+      "niche": "ugc-and-apps",
+      "name": "UGC and apps",
+      "live_campaigns": 155,
+      "rate_median_usd": 2,
+      "budget_left_usd": 278468,
+      "budget_lasted_median_days": 36
+    },
+    {
+      "niche": "behind-the-scenes",
+      "name": "Behind the scenes",
+      "live_campaigns": 3,
+      "rate_median_usd": 2.5,
+      "budget_left_usd": 2670,
+      "budget_lasted_median_days": null
+    },
+    {
+      "niche": "gambling",
+      "name": "Gambling",
+      "live_campaigns": 67,
+      "rate_median_usd": 1,
+      "budget_left_usd": 252300,
+      "budget_lasted_median_days": 14
+    },
+    {
+      "niche": "prediction-markets",
+      "name": "Prediction markets",
+      "live_campaigns": 2,
+      "rate_median_usd": null,
+      "budget_left_usd": 1335,
+      "budget_lasted_median_days": null
+    },
+    {
+      "niche": "crypto-trading",
+      "name": "Crypto trading",
+      "live_campaigns": 51,
+      "rate_median_usd": 2,
+      "budget_left_usd": 83789,
+      "budget_lasted_median_days": 19
+    }
+  ]
+}
